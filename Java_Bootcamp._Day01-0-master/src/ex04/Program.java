@@ -25,5 +25,18 @@ public class Program {
         for(Transaction transaction : transactions2){
             System.out.println(transaction);
         }
+
+        transactionsService.removeTransaction(user1.getId(), transactions1[0].getId());
+        transactions1 = transactionsService.getUserTransactions(user1.getId());
+        System.out.println("\nuser1 transactions ");
+        for(Transaction transaction : transactions1){
+            System.out.println(transaction);
+        }
+
+        Transaction[] unpaired = transactionsService.getUnpairedTransactions();
+        System.out.println("\nunpaired transactions ");
+        for(Transaction transaction : unpaired){
+            System.out.println(transaction);
+        }
     }
 }
