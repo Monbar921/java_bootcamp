@@ -21,7 +21,7 @@ public class TransactionsService {
         User sender = usersList.getUserById(senderId);
         User recipient = usersList.getUserById(recipientId);
         if (sender == recipient || amount < 0 || sender.getBalance() < amount) {
-            throw new IllegalTransactionException();
+            throw new IllegalTransactionException("Bad transaction");
         }
         Transaction transaction1 = new Transaction(recipient, sender, Transaction.TransferCategory.DEBITS, amount);
         Transaction transaction2 = new Transaction(sender, recipient, Transaction.TransferCategory.CREDITS, amount * -1);
@@ -85,4 +85,7 @@ public class TransactionsService {
         return Arrays.copyOfRange(temp, 0, totalUnpairs);
     }
 
+    public UsersList getUsersList() {
+        return usersList;
+    }
 }

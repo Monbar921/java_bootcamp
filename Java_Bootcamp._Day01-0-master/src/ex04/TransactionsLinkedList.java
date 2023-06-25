@@ -51,7 +51,7 @@ public class TransactionsLinkedList implements TransactionsList {
             first = first.next;
         }
         if(!isFind){
-            throw new TransactionNotFoundException();
+            throw new TransactionNotFoundException("Transaction with id = " + id + " not found");
         }
     }
 

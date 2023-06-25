@@ -30,7 +30,7 @@ public class UsersArrayList implements UsersList {
     @Override
     public User getUserById(int id) {
         if(id < 0){
-            throw new UserNotFoundException();
+            throw new UserNotFoundException("User with id = " + id + " not found");
         }
         for(int i = 0; i < usersAmount; ++i){
             User user = usersStorage[i];
@@ -38,7 +38,7 @@ public class UsersArrayList implements UsersList {
                 return user;
             }
         }
-        throw new UserNotFoundException();
+        throw new UserNotFoundException("User with id = " + id + " not found");
     }
 
     @Override

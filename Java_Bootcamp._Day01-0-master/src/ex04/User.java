@@ -20,6 +20,10 @@ public class User {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public double getBalance() {
         return balance;
     }
