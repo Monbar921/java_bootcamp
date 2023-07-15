@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ex01.ImagesToChar.src.java.edu.school21.printer.app</groupId>
+    <artifactId>images-to-chars</artifactId>
+    <version>printer</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <exec.mainClass>ex01.ImagesToChar.src.java.edu.school21.printer.app.Program</exec.mainClass>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <archive>
+                        <manifestFile>src/manifest.txt</manifestFile>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+        <sourceDirectory>src</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/resources</directory>
+                <targetPath>resources</targetPath>
+            </resource>
+        </resources>
+    </build>
+
+</project>
+
+        <!--        mvn clean package &&  java -jar target/images-to-chars-printer.jar &#45;&#45;white=. &#45;&#45;black=0-->

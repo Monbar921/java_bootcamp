@@ -67,7 +67,7 @@ P.S. Some tasks require a non-trivial approach because of the above-mentioned li
 |Exercise 00: Sum of Digits||
 |------|------|
 | Turn-in directory | ex00 |
-| Files to turn-in |	ex00.Program.java |
+| Files to turn-in |	ex00.ImagesToChar.src.java.edu.school21.printer.app.Program.java |
 | **Allowed** | |
 | Input/Output | System.out|
 | Types |	Primitive types |
@@ -81,7 +81,7 @@ Calculate the sum of digits of a six-digit int number (the number value is set d
 
 Example of the program operation for number 479598:
 ```
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
   42
 ```
 
@@ -91,7 +91,7 @@ $ java ex00.Program
 |Exercise 01: Really Prime Number||
 |------|------|
 | Turn-in directory |	ex01 |
-| Files to turn-in |	ex00.Program.java |
+| Files to turn-in |	ex00.ImagesToChar.src.java.edu.school21.printer.app.Program.java |
 | **Allowed** | |
 |Input/Output	| System.out, System.err, Scanner(System.in) |
 | Types |	Primitive types |
@@ -108,19 +108,19 @@ For negative numbers, 0 and 1, display theIllegalArgument message and shut down 
 Example of program operation:
 
 ```
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 -> 169
    false 12
 
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 -> 113
    true 10
 
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 -> 42
    false 1
 
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 -> -100 
    Illegal Argument
 ```
@@ -131,7 +131,7 @@ $ java ex00.Program
 |Exercise 02: Endless Sequence (or not?)||
 |------|------|
 Turn-in directory |	ex02
-Files to turn-in |	ex00.Program.java
+Files to turn-in |	ex00.ImagesToChar.src.java.edu.school21.printer.app.Program.java
 **Allowed**
 Input/Output |	System.out, System.err, Scanner(System.in)
 Types |	Primitive types
@@ -150,7 +150,7 @@ This task guarantees that input data is absolutely correct.
 Example of program operation:
 
 ```
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 -> 198131
 -> 12901212
 -> 11122
@@ -163,7 +163,7 @@ $ java ex00.Program
 Exercise 03: A Little Bit of Statistics ||
 ---|---
 Turn-in directory |	ex02
-Files to turn-in |	ex00.Program.java
+Files to turn-in |	ex00.ImagesToChar.src.java.edu.school21.printer.app.Program.java
 **Allowed**
 Input/Output | System.out, System.err, Scanner(System.in)
 Types |	Primitive types, String
@@ -193,7 +193,7 @@ However, the order of weekly data input is not guaranteed, so Week 1's data can 
 Example of program operation:
 
 ```
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 -> Week 1
 -> 4 5 2 4 2
 -> Week 2
@@ -214,7 +214,7 @@ Week 4 ====>
 Exercise 04: A Bit More of Statistics ||
 ---|---
 Turn-in directory	| ex04
-Files to turn-in |	ex00.Program.java
+Files to turn-in |	ex00.ImagesToChar.src.java.edu.school21.printer.app.Program.java
 **Allowed**
 Input/Output |	System.out, System.err, Scanner(System.in)
 Types | Primitive types, String, arrays
@@ -244,7 +244,7 @@ The maximum number of character occurrences is 999.
 Example of program operation:
 
 ```
-$ java ex00.Program
+$ java ex00.ImagesToChar.src.java.edu.school21.printer.app.Program
 
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASSSSSSSSSSSSSSSSSSSSSSSSDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWEWWKFKKDKKDSKAKLSLDKSKALLLLLLLLLLRTRTETWTWWWWWWWWWWOOOOOOO42
 
@@ -268,7 +268,7 @@ $ java ex00.Program
 Exercise 05: Schedule ||
 ---|---
 Turn-in directory	| ex05
-Files to turn-in |ex00.Program.java
+Files to turn-in |ex00.ImagesToChar.src.java.edu.school21.printer.app.Program.java
 **Allowed**
 Input/Output | System.out, System.err, Scanner(System.in)
 Types |	Primitive types, String, arrays

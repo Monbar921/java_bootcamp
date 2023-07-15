@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ex00.ImagesToChar.src.java.edu.school21.printer.app</groupId>
+    <artifactId>ex00</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <exec.mainClass>ex00.ImagesToChar.src.java.edu.school21.printer.app.Program</exec.mainClass>
+    </properties>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+    </build>
+
+</project>
+
+<!-- mvn clean compile exec:java -Dexec.args=". 0 /home/denis/java_bootcamp/Java_Bootcamp._Day04-0-master/src/ex00/ImagesToChar/src/resources/it.bmp"
+ -->

@@ -1,0 +1,1 @@
+execute program = mvn clean install && java -jar target/images-to-chars-printer.jar --white=RED --black=GREEN
