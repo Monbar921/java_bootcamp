@@ -1,6 +1,6 @@
-package ex01.ImagesToChar.src.java.edu.school21.printer.app;
+package main.java.edu.school21.printer.app;
 
-import ex01.ImagesToChar.src.java.edu.school21.printer.logic.ImagesToCharConverter;
+import main.java.edu.school21.printer.logic.ImagesToCharConverter;
 
 
 public class Program {
@@ -9,4 +9,3 @@ public class Program {
         converter.run();
     }
 }
-

@@ -1,4 +1,4 @@
-ex00/ImagesToChar/src/java/edu/school21/printer/logic/ImagesToCharConverter.class
-ex00/ImagesToChar/src/java/edu/school21/printer/app/Program.class
-ex00/ImagesToChar/src/java/edu/school21/printer/logic/ImagePrinter.class
-ex00/ImagesToChar/src/java/edu/school21/printer/logic/ImageReader.class
+main/java/edu/school21/printer/logic/ImagePrinter.class
+main/java/edu/school21/printer/logic/ImagesToCharConverter.class
+main/java/edu/school21/printer/logic/ImageReader.class
+main/java/edu/school21/printer/app/Program.class

@@ -1,4 +1,4 @@
-package ex01.ImagesToChar.src.java.edu.school21.printer.logic;
+package main.java.edu.school21.printer.logic;
 
 import java.awt.image.BufferedImage;
 

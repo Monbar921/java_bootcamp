@@ -1,6 +1,6 @@
-package ex01.ImagesToChar.src.java.edu.school21.printer.logic;
+package main.java.edu.school21.printer.logic;
 
-import ex01.ImagesToChar.src.java.edu.school21.printer.app.Program;
+import main.java.edu.school21.printer.app.Program;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -18,7 +18,6 @@ public class ImageReader {
 
             image = ImageIO.read(inputStream);
         }
-        System.out.println(image);
         return image;
     }
 }
