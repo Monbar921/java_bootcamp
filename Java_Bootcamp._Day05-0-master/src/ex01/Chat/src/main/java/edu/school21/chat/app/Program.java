@@ -1,6 +1,6 @@
-package edu.school21.chat;
+package edu.school21.chat.app;
 
-public class Main {
+public class Program {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }

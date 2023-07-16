@@ -31,7 +31,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>edu.school21.chat.Main</mainClass>
+                            <mainClass>edu.school21.chat.app.Program</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -41,4 +41,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
