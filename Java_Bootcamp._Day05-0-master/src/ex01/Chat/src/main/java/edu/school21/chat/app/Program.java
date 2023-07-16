@@ -25,7 +25,7 @@ public class Program {
                 System.out.println("Give me a number");
             }
         } else {
-            System.out.println("Wring db settings");
+            System.out.println("Wrong db settings");
         }
     }
 }

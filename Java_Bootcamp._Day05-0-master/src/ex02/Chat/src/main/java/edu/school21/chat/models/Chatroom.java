@@ -4,10 +4,17 @@ import java.util.List;
 import java.util.Objects;
 
 public class Chatroom {
-    private int id;
+    private long id;
     private String name;
     private User owner;
     private List<Message> messages;
+
+    public Chatroom(long id, String name, User owner, List<Message> messages) {
+        this.id = id;
+        this.name = name;
+        this.owner = owner;
+        this.messages = messages;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -24,11 +31,19 @@ public class Chatroom {
 
     @Override
     public String toString() {
-        return "Chatroom{" +
+        return "{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", owner='" + owner + '\'' +
-                ", messages=" + messages +
+                ",name=“" + name + "”" +
+                ",creator=" + owner +
+                ",messages=" + messages +
                 '}';
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
     }
 }
