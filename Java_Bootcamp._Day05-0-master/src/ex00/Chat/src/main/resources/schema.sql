@@ -56,11 +56,11 @@ CREATE TABLE IF NOT EXISTS chat.messages
     users
 (
     id
-) NOT NULL,
+),
     room INTEGER REFERENCES chat.rooms
 (
     id
-) NOT NULL,
-    text TEXT NOT NULL,
-    datetime TIMESTAMP NOT NULL
+),
+    text TEXT,
+    datetime TIMESTAMP
     );

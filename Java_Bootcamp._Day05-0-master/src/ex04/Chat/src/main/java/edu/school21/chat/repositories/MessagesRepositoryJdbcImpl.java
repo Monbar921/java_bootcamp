@@ -3,6 +3,7 @@ package edu.school21.chat.repositories;
 import edu.school21.chat.models.Chatroom;
 import edu.school21.chat.models.Message;
 import edu.school21.chat.models.User;
+import edu.school21.chat.repositories.exceptions.NotSavedSubEntityException;
 
 import javax.sql.DataSource;
 import java.sql.*;
